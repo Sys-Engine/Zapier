@@ -772,9 +772,11 @@ margin-right: auto;
     color: rgb(0, 0, 0);
 }
 .sixth-section {
+    margin: auto;
     margin-top:64px;
     margin-bottom: 120px;
     height: auto;
+    max-width: 1210px;
 }
 .sixth-inner-div {
     max-width: 1210px;
@@ -2399,16 +2401,18 @@ text-decoration: underline;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
     text-align: center;
 }
 .line-scroll {
     padding: 48px 0;
     margin: 0 auto;
     align-items: center;
+    width: 1440px;
     position: relative;
     height: 50px;
     gap: 80px;
-    animation:270s linear infinite;
+    animation:95s linear infinite;
     display: inline-flex;
     align-items: center;
     animation-name: scroll;
@@ -2580,7 +2584,10 @@ height: 24px;
 .another-divv {
     margin-bottom: 16px;
 }
-
+.line-scroll {
+    gap: 48px;
+    padding: 24px 0;
+}
 .annao h3 {
     font-size: 18px;
     font-weight: 600;
@@ -3001,6 +3008,7 @@ grid-template-columns: repeat(5, minmax(0, 1fr));
         height: 115px;
         padding-top: 50px;
     }
+
     .in-cs{
         margin-top: 50px;
     }
@@ -3034,6 +3042,7 @@ grid-template-columns: repeat(5, minmax(0, 1fr));
     }
     .line-scroll {
 padding: 24px 0;
+gap: 32px;
     }
     .section-sectin h3 {
         font-size: 12px;
